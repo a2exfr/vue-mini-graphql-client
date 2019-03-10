@@ -1,0 +1,48 @@
+{
+   "name": "vue-mini-graphql-client",
+   "version": "0.1.0",
+   "private": false,
+   "license": "MIT",
+   "main": "dist/vue-mini-graphql-client.common.js",
+   "scripts": {
+	  "serve": "vue-cli-service serve",
+	  "build": "vue-cli-service build",
+	  "build-bundle": "vue-cli-service build --target lib --name vue-mini-graphql-client ./src/index.js",
+	  "build-bundle:report": "vue-cli-service build --target lib --name vue-mini-graphql-client ./src/index.js --report-json",
+	  "lint": "vue-cli-service lint"
+   },
+   "dependencies": {
+	  "graphql": "^14.1.1",
+	  "vue": "^2.6.6"
+   },
+   "devDependencies": {
+	  "@vue/cli-plugin-babel": "^3.5.0",
+	  "@vue/cli-plugin-eslint": "^3.5.0",
+	  "@vue/cli-service": "^3.5.0",
+	  "@vue/eslint-config-airbnb": "^4.0.0",
+	  "babel-eslint": "^10.0.1",
+	  "eslint": "^5.8.0",
+	  "eslint-plugin-vue": "^5.0.0",
+	  "vue-template-compiler": "^2.5.21"
+   },
+   "repository": {
+	  "type": "git",
+	  "url": "https://github.com/a2exfr/vue-mini-graphql-client.git"
+   },
+   "files": [
+	  "dist/*",
+	  "src/*",
+	  "public/*",
+	  "*.json",
+	  "*.js"
+   ],
+   "keywords": [
+	  "vue",
+	  "graphql",
+	  "client",
+	  "graphql-client",
+	  "query",
+	  "mutation",
+	  "subscriptions"
+   ]
+}
